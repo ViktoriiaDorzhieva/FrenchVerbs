@@ -9,6 +9,7 @@ import SwiftUI
 
 struct VerbGameView: View {
     @State private var viewModel = VerbGameViewModel()
+    @State private var isShowingCheatSheet = false
 
     var body: some View {
         ZStack {
@@ -56,7 +57,7 @@ struct VerbGameView: View {
                     VStack(spacing: 20) {
                         // Verb Display
                         VStack(spacing: 8) {
-                            Text("Conjugate:")
+                            Text("Conjugate (\(viewModel.currentTense.rawValue)):")
                                 .font(.caption)
                                 .foregroundColor(.gray)
                             Text(verb.infinitive)
@@ -110,13 +111,17 @@ struct VerbGameView: View {
                 // Feedback Section
                 if viewModel.isShowingFeedback {
                     VStack(spacing: 12) {
-                        HStack {
+                        HStack(alignment: .top, spacing: 8) {
                             Image(systemName: viewModel.isCorrect ?? false ? "checkmark.circle.fill" : "xmark.circle.fill")
                                 .foregroundColor(viewModel.isCorrect ?? false ? .green : .red)
+                                .padding(.top, 2)
+
                             Text(viewModel.feedback)
                                 .font(.body)
                                 .foregroundColor(.black)
-                            Spacer()
+                                .lineLimit(nil)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .frame(maxWidth: .infinity, alignment: .leading)
                         }
                     }
                     .padding()
@@ -176,6 +181,56 @@ struct VerbGameView: View {
                     .frame(height: 8)
             }
             .padding()
+        }
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: { isShowingCheatSheet = true }) {
+                    Image(systemName: "line.3.horizontal")
+                }
+                .accessibilityLabel("Open Cheat Sheet")
+            }
+        }
+        .sheet(isPresented: $isShowingCheatSheet) {
+            if let verb = viewModel.currentVerb {
+                CheatSheetView(verb: verb)
+            } else {
+                Text("No verb loaded")
+                    .padding()
+            }
+        }
+    }
+}
+
+struct CheatSheetView: View {
+    let verb: FrenchVerb
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Section(header: Text("Infinitive")) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(verb.infinitive).font(.title2).fontWeight(.bold)
+                        Text(verb.englishMeaning).font(.subheadline).foregroundColor(.gray)
+                    }
+                }
+                Section(header: Text("Present")) {
+                    ForEach(verb.present.allPairs, id: \.0) { pronoun, form in
+                        HStack { Text(pronoun).fontWeight(.semibold); Spacer(); Text(form) }
+                    }
+                }
+                Section(header: Text("Past (Passé composé)")) {
+                    ForEach(verb.past.allPairs, id: \.0) { pronoun, form in
+                        HStack { Text(pronoun).fontWeight(.semibold); Spacer(); Text(form) }
+                    }
+                }
+                Section(header: Text("Future (Futur simple)")) {
+                    ForEach(verb.future.allPairs, id: \.0) { pronoun, form in
+                        HStack { Text(pronoun).fontWeight(.semibold); Spacer(); Text(form) }
+                    }
+                }
+            }
+            .navigationTitle("Cheat Sheet")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

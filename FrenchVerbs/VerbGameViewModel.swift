@@ -11,6 +11,7 @@ import Foundation
 class VerbGameViewModel {
     var currentVerb: FrenchVerb?
     var currentPronoun: Pronoun?
+    var currentTense: Tense = .present
     var userInput: String = ""
     var feedback: String = ""
     var isCorrect: Bool? = nil
@@ -25,6 +26,7 @@ class VerbGameViewModel {
     func loadNewQuestion() {
         currentVerb = frenchVerbs.randomElement()
         currentPronoun = Pronoun.allCases.randomElement()
+        currentTense = .present
         userInput = ""
         feedback = ""
         isCorrect = nil
@@ -34,7 +36,7 @@ class VerbGameViewModel {
     func checkAnswer() {
         guard let verb = currentVerb, let pronoun = currentPronoun else { return }
 
-        let correct = getCorrectConjugation(for: verb, pronoun: pronoun)
+        let correct = verb.conjugation(for: pronoun, tense: currentTense)
         let userAnswer = userInput.trimmingCharacters(in: .whitespaces).lowercased()
         let isAnswerCorrect = userAnswer == correct.lowercased()
 
@@ -49,23 +51,6 @@ class VerbGameViewModel {
         }
 
         isShowingFeedback = true
-    }
-
-    func getCorrectConjugation(for verb: FrenchVerb, pronoun: Pronoun) -> String {
-        switch pronoun {
-        case .je:
-            return verb.conjugations.je
-        case .tu:
-            return verb.conjugations.tu
-        case .il:
-            return verb.conjugations.il
-        case .nous:
-            return verb.conjugations.nous
-        case .vous:
-            return verb.conjugations.vous
-        case .ils:
-            return verb.conjugations.ils
-        }
     }
 
     func nextQuestion() {

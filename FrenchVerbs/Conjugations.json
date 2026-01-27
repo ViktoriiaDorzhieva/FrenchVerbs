@@ -1,0 +1,368 @@
+{
+  "verbs": [
+    {
+      "infinitive": "être",
+      "englishMeaning": "to be",
+      "present": {"je":"suis","tu":"es","il/elle/on":"est","nous":"sommes","vous":"êtes","ils/elles":"sont"},
+      "past": {"je":"ai été","tu":"as été","il/elle/on":"a été","nous":"avons été","vous":"avez été","ils/elles":"ont été"},
+      "future": {"je":"serai","tu":"seras","il/elle/on":"sera","nous":"serons","vous":"serez","ils/elles":"seront"}
+    },
+    {
+      "infinitive": "avoir",
+      "englishMeaning": "to have",
+      "present": {"je":"ai","tu":"as","il/elle/on":"a","nous":"avons","vous":"avez","ils/elles":"ont"},
+      "past": {"je":"ai eu","tu":"as eu","il/elle/on":"a eu","nous":"avons eu","vous":"avez eu","ils/elles":"ont eu"},
+      "future": {"je":"aurai","tu":"auras","il/elle/on":"aura","nous":"aurons","vous":"aurez","ils/elles":"auront"}
+    },
+    {
+      "infinitive": "faire",
+      "englishMeaning": "to do/make",
+      "present": {"je":"fais","tu":"fais","il/elle/on":"fait","nous":"faisons","vous":"faites","ils/elles":"font"},
+      "past": {"je":"ai fait","tu":"as fait","il/elle/on":"a fait","nous":"avons fait","vous":"avez fait","ils/elles":"ont fait"},
+      "future": {"je":"ferai","tu":"feras","il/elle/on":"fera","nous":"ferons","vous":"ferez","ils/elles":"feront"}
+    },
+    {
+      "infinitive": "aller",
+      "englishMeaning": "to go",
+      "present": {"je":"vais","tu":"vas","il/elle/on":"va","nous":"allons","vous":"allez","ils/elles":"vont"},
+      "past": {"je":"suis allé(e)","tu":"es allé(e)","il/elle/on":"est allé(e)","nous":"sommes allé(e)s","vous":"êtes allé(e)(s)","ils/elles":"sont allé(e)s"},
+      "future": {"je":"irai","tu":"iras","il/elle/on":"ira","nous":"irons","vous":"irez","ils/elles":"iront"}
+    },
+    {
+      "infinitive": "parler",
+      "englishMeaning": "to speak",
+      "present": {"je":"parle","tu":"parles","il/elle/on":"parle","nous":"parlons","vous":"parlez","ils/elles":"parlent"},
+      "past": {"je":"ai parlé","tu":"as parlé","il/elle/on":"a parlé","nous":"avons parlé","vous":"avez parlé","ils/elles":"ont parlé"},
+      "future": {"je":"parlerai","tu":"parleras","il/elle/on":"parlera","nous":"parlerons","vous":"parlerez","ils/elles":"parleront"}
+    },
+    {
+      "infinitive": "aimer",
+      "englishMeaning": "to like/love",
+      "present": {"je":"aime","tu":"aimes","il/elle/on":"aime","nous":"aimons","vous":"aimez","ils/elles":"aiment"},
+      "past": {"je":"ai aimé","tu":"as aimé","il/elle/on":"a aimé","nous":"avons aimé","vous":"avez aimé","ils/elles":"ont aimé"},
+      "future": {"je":"aimerai","tu":"aimeras","il/elle/on":"aimera","nous":"aimerons","vous":"aimerez","ils/elles":"aimeront"}
+    },
+    {
+      "infinitive": "finir",
+      "englishMeaning": "to finish",
+      "present": {"je":"finis","tu":"finis","il/elle/on":"finit","nous":"finissons","vous":"finissez","ils/elles":"finissent"},
+      "past": {"je":"ai fini","tu":"as fini","il/elle/on":"a fini","nous":"avons fini","vous":"avez fini","ils/elles":"ont fini"},
+      "future": {"je":"finirai","tu":"finiras","il/elle/on":"finira","nous":"finirons","vous":"finirez","ils/elles":"finiront"}
+    },
+    {
+      "infinitive": "vendre",
+      "englishMeaning": "to sell",
+      "present": {"je":"vends","tu":"vends","il/elle/on":"vend","nous":"vendons","vous":"vendez","ils/elles":"vendent"},
+      "past": {"je":"ai vendu","tu":"as vendu","il/elle/on":"a vendu","nous":"avons vendu","vous":"avez vendu","ils/elles":"ont vendu"},
+      "future": {"je":"vendrai","tu":"vendras","il/elle/on":"vendra","nous":"vendrons","vous":"vendrez","ils/elles":"vendront"}
+    },
+    {
+      "infinitive": "mettre",
+      "englishMeaning": "to put",
+      "present": {"je":"mets","tu":"mets","il/elle/on":"met","nous":"mettons","vous":"mettez","ils/elles":"mettent"},
+      "past": {"je":"ai mis","tu":"as mis","il/elle/on":"a mis","nous":"avons mis","vous":"avez mis","ils/elles":"ont mis"},
+      "future": {"je":"mettrai","tu":"mettras","il/elle/on":"mettra","nous":"mettrons","vous":"mettrez","ils/elles":"mettront"}
+    },
+    {
+      "infinitive": "sortir",
+      "englishMeaning": "to go out",
+      "present": {"je":"sors","tu":"sors","il/elle/on":"sort","nous":"sortons","vous":"sortez","ils/elles":"sortent"},
+      "past": {"je":"suis sorti(e)","tu":"es sorti(e)","il/elle/on":"est sorti(e)","nous":"sommes sorti(e)s","vous":"êtes sorti(e)(s)","ils/elles":"sont sorti(e)s"},
+      "future": {"je":"sortirai","tu":"sortiras","il/elle/on":"sortira","nous":"sortirons","vous":"sortirez","ils/elles":"sortiront"}
+    },
+    {
+      "infinitive": "partir",
+      "englishMeaning": "to leave",
+      "present": {"je":"pars","tu":"pars","il/elle/on":"part","nous":"partons","vous":"partez","ils/elles":"partent"},
+      "past": {"je":"suis parti(e)","tu":"es parti(e)","il/elle/on":"est parti(e)","nous":"sommes parti(e)s","vous":"êtes parti(e)(s)","ils/elles":"sont parti(e)s"},
+      "future": {"je":"partirai","tu":"partiras","il/elle/on":"partira","nous":"partirons","vous":"partirez","ils/elles":"partiront"}
+    },
+    {
+      "infinitive": "dormir",
+      "englishMeaning": "to sleep",
+      "present": {"je":"dors","tu":"dors","il/elle/on":"dort","nous":"dormons","vous":"dormez","ils/elles":"dorment"},
+      "past": {"je":"ai dormi","tu":"as dormi","il/elle/on":"a dormi","nous":"avons dormi","vous":"avez dormi","ils/elles":"ont dormi"},
+      "future": {"je":"dormirai","tu":"dormiras","il/elle/on":"dormira","nous":"dormirons","vous":"dormirez","ils/elles":"dormiront"}
+    },
+    {
+      "infinitive": "écrire",
+      "englishMeaning": "to write",
+      "present": {"je":"écris","tu":"écris","il/elle/on":"écrit","nous":"écrivons","vous":"écrivez","ils/elles":"écrivent"},
+      "past": {"je":"ai écrit","tu":"as écrit","il/elle/on":"a écrit","nous":"avons écrit","vous":"avez écrit","ils/elles":"ont écrit"},
+      "future": {"je":"écrirai","tu":"écriras","il/elle/on":"écrira","nous":"écrirons","vous":"écrirez","ils/elles":"écriront"}
+    },
+    {
+      "infinitive": "lire",
+      "englishMeaning": "to read",
+      "present": {"je":"lis","tu":"lis","il/elle/on":"lit","nous":"lisons","vous":"lisez","ils/elles":"lisent"},
+      "past": {"je":"ai lu","tu":"as lu","il/elle/on":"a lu","nous":"avons lu","vous":"avez lu","ils/elles":"ont lu"},
+      "future": {"je":"lirai","tu":"liras","il/elle/on":"lira","nous":"lirons","vous":"lirez","ils/elles":"liront"}
+    },
+    {
+      "infinitive": "dire",
+      "englishMeaning": "to say",
+      "present": {"je":"dis","tu":"dis","il/elle/on":"dit","nous":"disons","vous":"dites","ils/elles":"disent"},
+      "past": {"je":"ai dit","tu":"as dit","il/elle/on":"a dit","nous":"avons dit","vous":"avez dit","ils/elles":"ont dit"},
+      "future": {"je":"dirai","tu":"diras","il/elle/on":"dira","nous":"dirons","vous":"direz","ils/elles":"diront"}
+    },
+    {
+      "infinitive": "connaître",
+      "englishMeaning": "to know",
+      "present": {"je":"connais","tu":"connais","il/elle/on":"connaît","nous":"connaissons","vous":"connaissez","ils/elles":"connaissent"},
+      "past": {"je":"ai connu","tu":"as connu","il/elle/on":"a connu","nous":"avons connu","vous":"avez connu","ils/elles":"ont connu"},
+      "future": {"je":"connaîtrai","tu":"connaîtras","il/elle/on":"connaîtra","nous":"connaîtrons","vous":"connaîtrez","ils/elles":"connaîtront"}
+    },
+    {
+      "infinitive": "croire",
+      "englishMeaning": "to believe",
+      "present": {"je":"crois","tu":"crois","il/elle/on":"croit","nous":"croyons","vous":"croyez","ils/elles":"croient"},
+      "past": {"je":"ai cru","tu":"as cru","il/elle/on":"a cru","nous":"avons cru","vous":"avez cru","ils/elles":"ont cru"},
+      "future": {"je":"croirai","tu":"croiras","il/elle/on":"croira","nous":"croirons","vous":"croirez","ils/elles":"croiront"}
+    },
+    {
+      "infinitive": "tenir",
+      "englishMeaning": "to hold",
+      "present": {"je":"tiens","tu":"tiens","il/elle/on":"tient","nous":"tenons","vous":"tenez","ils/elles":"tiennent"},
+      "past": {"je":"ai tenu","tu":"as tenu","il/elle/on":"a tenu","nous":"avons tenu","vous":"avez tenu","ils/elles":"ont tenu"},
+      "future": {"je":"tiendrai","tu":"tiendras","il/elle/on":"tiendra","nous":"tiendrons","vous":"tiendrez","ils/elles":"tiendront"}
+    },
+    {
+      "infinitive": "suivre",
+      "englishMeaning": "to follow",
+      "present": {"je":"suis","tu":"suis","il/elle/on":"suit","nous":"suivons","vous":"suivez","ils/elles":"suivent"},
+      "past": {"je":"ai suivi","tu":"as suivi","il/elle/on":"a suivi","nous":"avons suivi","vous":"avez suivi","ils/elles":"ont suivi"},
+      "future": {"je":"suivrai","tu":"suivras","il/elle/on":"suivra","nous":"suivrons","vous":"suivrez","ils/elles":"suivront"}
+    },
+    {
+      "infinitive": "ouvrir",
+      "englishMeaning": "to open",
+      "present": {"je":"ouvre","tu":"ouvres","il/elle/on":"ouvre","nous":"ouvrons","vous":"ouvrez","ils/elles":"ouvrent"},
+      "past": {"je":"ai ouvert","tu":"as ouvert","il/elle/on":"a ouvert","nous":"avons ouvert","vous":"avez ouvert","ils/elles":"ont ouvert"},
+      "future": {"je":"ouvrirai","tu":"ouvriras","il/elle/on":"ouvrira","nous":"ouvrirons","vous":"ouvrirez","ils/elles":"ouvriront"}
+    },
+    {
+      "infinitive": "offrir",
+      "englishMeaning": "to offer",
+      "present": {"je":"offre","tu":"offres","il/elle/on":"offre","nous":"offrons","vous":"offrez","ils/elles":"offrent"},
+      "past": {"je":"ai offert","tu":"as offert","il/elle/on":"a offert","nous":"avons offert","vous":"avez offert","ils/elles":"ont offert"},
+      "future": {"je":"offrirai","tu":"offriras","il/elle/on":"offrira","nous":"offrirons","vous":"offrirez","ils/elles":"offriront"}
+    },
+    {
+      "infinitive": "recevoir",
+      "englishMeaning": "to receive",
+      "present": {"je":"reçois","tu":"reçois","il/elle/on":"reçoit","nous":"recevons","vous":"recevez","ils/elles":"reçoivent"},
+      "past": {"je":"ai reçu","tu":"as reçu","il/elle/on":"a reçu","nous":"avons reçu","vous":"avez reçu","ils/elles":"ont reçu"},
+      "future": {"je":"recevrai","tu":"recevras","il/elle/on":"recevra","nous":"recevrons","vous":"recevrez","ils/elles":"recevront"}
+    },
+    {
+      "infinitive": "apercevoir",
+      "englishMeaning": "to glimpse",
+      "present": {"je":"aperçois","tu":"aperçois","il/elle/on":"aperçoit","nous":"apercevons","vous":"apercevez","ils/elles":"aperçoivent"},
+      "past": {"je":"ai aperçu","tu":"as aperçu","il/elle/on":"a aperçu","nous":"avons aperçu","vous":"avez aperçu","ils/elles":"ont aperçu"},
+      "future": {"je":"apercevrai","tu":"apercevras","il/elle/on":"apercevra","nous":"apercevrons","vous":"apercevrez","ils/elles":"apercevront"}
+    },
+    {
+      "infinitive": "appeler",
+      "englishMeaning": "to call",
+      "present": {"je":"appelle","tu":"appelles","il/elle/on":"appelle","nous":"appelons","vous":"appelez","ils/elles":"appellent"},
+      "past": {"je":"ai appelé","tu":"as appelé","il/elle/on":"a appelé","nous":"avons appelé","vous":"avez appelé","ils/elles":"ont appelé"},
+      "future": {"je":"appellerai","tu":"appelleras","il/elle/on":"appellera","nous":"appellerons","vous":"appellerez","ils/elles":"appelleront"}
+    },
+    {
+      "infinitive": "jeter",
+      "englishMeaning": "to throw",
+      "present": {"je":"jette","tu":"jettes","il/elle/on":"jette","nous":"jetons","vous":"jetez","ils/elles":"jettent"},
+      "past": {"je":"ai jeté","tu":"as jeté","il/elle/on":"a jeté","nous":"avons jeté","vous":"avez jeté","ils/elles":"ont jeté"},
+      "future": {"je":"jetterai","tu":"jetteras","il/elle/on":"jettera","nous":"jetterons","vous":"jetterez","ils/elles":"jetteront"}
+    },
+    {
+      "infinitive": "payer",
+      "englishMeaning": "to pay",
+      "present": {"je":"paie","tu":"paies","il/elle/on":"paie","nous":"payons","vous":"payez","ils/elles":"paient"},
+      "past": {"je":"ai payé","tu":"as payé","il/elle/on":"a payé","nous":"avons payé","vous":"avez payé","ils/elles":"ont payé"},
+      "future": {"je":"paierai","tu":"paieras","il/elle/on":"paiera","nous":"paierons","vous":"paierez","ils/elles":"paieront"}
+    },
+    {
+      "infinitive": "acheter",
+      "englishMeaning": "to buy",
+      "present": {"je":"achète","tu":"achètes","il/elle/on":"achète","nous":"achetons","vous":"achetez","ils/elles":"achètent"},
+      "past": {"je":"ai acheté","tu":"as acheté","il/elle/on":"a acheté","nous":"avons acheté","vous":"avez acheté","ils/elles":"ont acheté"},
+      "future": {"je":"achèterai","tu":"achèteras","il/elle/on":"achètera","nous":"achèterons","vous":"achèterez","ils/elles":"achèteront"}
+    },
+    {
+      "infinitive": "préférer",
+      "englishMeaning": "to prefer",
+      "present": {"je":"préfère","tu":"préfères","il/elle/on":"préfère","nous":"préférons","vous":"préférez","ils/elles":"préfèrent"},
+      "past": {"je":"ai préféré","tu":"as préféré","il/elle/on":"a préféré","nous":"avons préféré","vous":"avez préféré","ils/elles":"ont préféré"},
+      "future": {"je":"préfèrerai","tu":"préfèreras","il/elle/on":"préfèrera","nous":"préfèrerons","vous":"préférerez","ils/elles":"préfèreront"}
+    },
+    {
+      "infinitive": "espérer",
+      "englishMeaning": "to hope",
+      "present": {"je":"espère","tu":"espères","il/elle/on":"espère","nous":"espérons","vous":"espérez","ils/elles":"espèrent"},
+      "past": {"je":"ai espéré","tu":"as espéré","il/elle/on":"a espéré","nous":"avons espéré","vous":"avez espéré","ils/elles":"ont espéré"},
+      "future": {"je":"espérerai","tu":"espéreras","il/elle/on":"espérera","nous":"espérerons","vous":"espérerez","ils/elles":"espéreront"}
+    },
+    {
+      "infinitive": "nettoyer",
+      "englishMeaning": "to clean",
+      "present": {"je":"nettoie","tu":"nettoies","il/elle/on":"nettoie","nous":"nettoyons","vous":"nettoyez","ils/elles":"nettoient"},
+      "past": {"je":"ai nettoyé","tu":"as nettoyé","il/elle/on":"a nettoyé","nous":"avons nettoyé","vous":"avez nettoyé","ils/elles":"ont nettoyé"},
+      "future": {"je":"nettoierai","tu":"nettoieras","il/elle/on":"nettoiera","nous":"nettoierons","vous":"nettoierez","ils/elles":"nettoieront"}
+    },
+    {
+      "infinitive": "envoyer",
+      "englishMeaning": "to send",
+      "present": {"je":"envoie","tu":"envoies","il/elle/on":"envoie","nous":"envoyons","vous":"envoyez","ils/elles":"envoient"},
+      "past": {"je":"ai envoyé","tu":"as envoyé","il/elle/on":"a envoyé","nous":"avons envoyé","vous":"avez envoyé","ils/elles":"ont envoyé"},
+      "future": {"je":"enverrai","tu":"enverras","il/elle/on":"enverra","nous":"enverrons","vous":"enverrez","ils/elles":"enverront"}
+    },
+    {
+      "infinitive": "courir",
+      "englishMeaning": "to run",
+      "present": {"je":"cours","tu":"cours","il/elle/on":"court","nous":"courons","vous":"courez","ils/elles":"courent"},
+      "past": {"je":"ai couru","tu":"as couru","il/elle/on":"a couru","nous":"avons couru","vous":"avez couru","ils/elles":"ont couru"},
+      "future": {"je":"courrai","tu":"courras","il/elle/on":"courra","nous":"courrons","vous":"courrez","ils/elles":"courront"}
+    },
+    {
+      "infinitive": "valoir",
+      "englishMeaning": "to be worth",
+      "present": {"je":"vaux","tu":"vaux","il/elle/on":"vaut","nous":"valons","vous":"valez","ils/elles":"valent"},
+      "past": {"je":"ai valu","tu":"as valu","il/elle/on":"a valu","nous":"avons valu","vous":"avez valu","ils/elles":"ont valu"},
+      "future": {"je":"vaudrai","tu":"vaudras","il/elle/on":"vaudra","nous":"vaudrons","vous":"vaudrez","ils/elles":"vaudront"}
+    },
+    {
+      "infinitive": "naître",
+      "englishMeaning": "to be born",
+      "present": {"je":"nais","tu":"nais","il/elle/on":"naît","nous":"naissons","vous":"naissez","ils/elles":"naissent"},
+      "past": {"je":"suis né(e)","tu":"es né(e)","il/elle/on":"est né(e)","nous":"sommes né(e)s","vous":"êtes né(e)(s)","ils/elles":"sont né(e)s"},
+      "future": {"je":"naîtrai","tu":"naîtras","il/elle/on":"naîtra","nous":"naîtrons","vous":"naîtrez","ils/elles":"naîtront"}
+    },
+    {
+      "infinitive": "mourir",
+      "englishMeaning": "to die",
+      "present": {"je":"meurs","tu":"meurs","il/elle/on":"meurt","nous":"mourons","vous":"mourez","ils/elles":"meurent"},
+      "past": {"je":"suis mort(e)","tu":"es mort(e)","il/elle/on":"est mort(e)","nous":"sommes mort(e)s","vous":"êtes mort(e)(s)","ils/elles":"sont mort(e)s"},
+      "future": {"je":"mourrai","tu":"mourras","il/elle/on":"mourra","nous":"mourrons","vous":"mourrez","ils/elles":"mourront"}
+    },
+    {
+      "infinitive": "battre",
+      "englishMeaning": "to beat",
+      "present": {"je":"bats","tu":"bats","il/elle/on":"bat","nous":"battons","vous":"battez","ils/elles":"battent"},
+      "past": {"je":"ai battu","tu":"as battu","il/elle/on":"a battu","nous":"avons battu","vous":"avez battu","ils/elles":"ont battu"},
+      "future": {"je":"battrai","tu":"battras","il/elle/on":"battra","nous":"battrons","vous":"battrez","ils/elles":"battront"}
+    },
+    {
+      "infinitive": "peindre",
+      "englishMeaning": "to paint",
+      "present": {"je":"peins","tu":"peins","il/elle/on":"peint","nous":"peignons","vous":"peignez","ils/elles":"peignent"},
+      "past": {"je":"ai peint","tu":"as peint","il/elle/on":"a peint","nous":"avons peint","vous":"avez peint","ils/elles":"ont peint"},
+      "future": {"je":"peindrai","tu":"peindras","il/elle/on":"peindra","nous":"peindrons","vous":"peindrez","ils/elles":"peindront"}
+    },
+    {
+      "infinitive": "craindre",
+      "englishMeaning": "to fear",
+      "present": {"je":"crains","tu":"crains","il/elle/on":"craint","nous":"craignons","vous":"craignez","ils/elles":"craignent"},
+      "past": {"je":"ai craint","tu":"as craint","il/elle/on":"a craint","nous":"avons craint","vous":"avez craint","ils/elles":"ont craint"},
+      "future": {"je":"craindrai","tu":"craindras","il/elle/on":"craindra","nous":"craindrons","vous":"craindrez","ils/elles":"craindront"}
+    },
+    {
+      "infinitive": "joindre",
+      "englishMeaning": "to join",
+      "present": {"je":"joins","tu":"joins","il/elle/on":"joint","nous":"joignons","vous":"joignez","ils/elles":"joignent"},
+      "past": {"je":"ai joint","tu":"as joint","il/elle/on":"a joint","nous":"avons joint","vous":"avez joint","ils/elles":"ont joint"},
+      "future": {"je":"joindrai","tu":"joindras","il/elle/on":"joindra","nous":"joindrons","vous":"joindrez","ils/elles":"joindront"}
+    },
+    {
+      "infinitive": "résoudre",
+      "englishMeaning": "to solve",
+      "present": {"je":"résous","tu":"résous","il/elle/on":"résout","nous":"résolvons","vous":"résolvez","ils/elles":"résolvent"},
+      "past": {"je":"ai résolu","tu":"as résolu","il/elle/on":"a résolu","nous":"avons résolu","vous":"avez résolu","ils/elles":"ont résolu"},
+      "future": {"je":"résoudrai","tu":"résoudras","il/elle/on":"résoudra","nous":"résoudrons","vous":"résoudrez","ils/elles":"résoudront"}
+    },
+    {
+      "infinitive": "apparaître",
+      "englishMeaning": "to appear",
+      "present": {"je":"apparais","tu":"apparais","il/elle/on":"apparaît","nous":"apparaissons","vous":"apparaissez","ils/elles":"apparaissent"},
+      "past": {"je":"ai apparu","tu":"as apparu","il/elle/on":"a apparu","nous":"avons apparu","vous":"avez apparu","ils/elles":"ont apparu"},
+      "future": {"je":"apparaîtrai","tu":"apparaîtras","il/elle/on":"apparaîtra","nous":"apparaîtrons","vous":"apparaîtrez","ils/elles":"apparaîtront"}
+    },
+    {
+      "infinitive": "disparaître",
+      "englishMeaning": "to disappear",
+      "present": {"je":"disparais","tu":"disparais","il/elle/on":"disparaît","nous":"disparaissons","vous":"disparaissez","ils/elles":"disparaissent"},
+      "past": {"je":"ai disparu","tu":"as disparu","il/elle/on":"a disparu","nous":"avons disparu","vous":"avez disparu","ils/elles":"ont disparu"},
+      "future": {"je":"disparaîtrai","tu":"disparaîtras","il/elle/on":"disparaîtra","nous":"disparaîtrons","vous":"disparaîtrez","ils/elles":"disparaîtront"}
+    },
+    {
+      "infinitive": "s’asseoir",
+      "englishMeaning": "to sit",
+      "present": {"je":"m'assois","tu":"t'assois","il/elle/on":"s'assoit","nous":"nous assoyons","vous":"vous assoyez","ils/elles":"s'assoient"},
+      "past": {"je":"me suis assis(e)","tu":"t'es assis(e)","il/elle/on":"s'est assis(e)","nous":"nous sommes assis(e)s","vous":"vous êtes assis(e)(s)","ils/elles":"se sont assis(e)s"},
+      "future": {"je":"m'assoirai","tu":"t'assoiras","il/elle/on":"s'assoira","nous":"nous assoirons","vous":"vous assoirez","ils/elles":"s'assoiront"}
+    },
+    {
+      "infinitive": "rire",
+      "englishMeaning": "to laugh",
+      "present": {"je":"ris","tu":"ris","il/elle/on":"rit","nous":"rions","vous":"riez","ils/elles":"rient"},
+      "past": {"je":"ai ri","tu":"as ri","il/elle/on":"a ri","nous":"avons ri","vous":"avez ri","ils/elles":"ont ri"},
+      "future": {"je":"rirai","tu":"riras","il/elle/on":"rira","nous":"rirons","vous":"rirez","ils/elles":"riront"}
+    },
+    {
+      "infinitive": "sourire",
+      "englishMeaning": "to smile",
+      "present": {"je":"souris","tu":"souris","il/elle/on":"sourit","nous":"sourions","vous":"souriez","ils/elles":"sourient"},
+      "past": {"je":"ai souri","tu":"as souri","il/elle/on":"a souri","nous":"avons souri","vous":"avez souri","ils/elles":"ont souri"},
+      "future": {"je":"sourirai","tu":"souriras","il/elle/on":"sourira","nous":"sourirons","vous":"sourirez","ils/elles":"souriront"}
+    },
+    {
+      "infinitive": "cuire",
+      "englishMeaning": "to cook",
+      "present": {"je":"cuis","tu":"cuis","il/elle/on":"cuit","nous":"cuisons","vous":"cuisez","ils/elles":"cuisent"},
+      "past": {"je":"ai cuit","tu":"as cuit","il/elle/on":"a cuit","nous":"avons cuit","vous":"avez cuit","ils/elles":"ont cuit"},
+      "future": {"je":"cuirai","tu":"cuiras","il/elle/on":"cuira","nous":"cuirons","vous":"cuirez","ils/elles":"cuiront"}
+    },
+    {
+      "infinitive": "bouillir",
+      "englishMeaning": "to boil",
+      "present": {"je":"bous","tu":"bous","il/elle/on":"bout","nous":"bouillons","vous":"bouillez","ils/elles":"bouillent"},
+      "past": {"je":"ai bouilli","tu":"as bouilli","il/elle/on":"a bouilli","nous":"avons bouilli","vous":"avez bouilli","ils/elles":"ont bouilli"},
+      "future": {"je":"bouillirai","tu":"bouilliras","il/elle/on":"bouillira","nous":"bouillirons","vous":"bouillirez","ils/elles":"bouilliront"}
+    },
+    {
+      "infinitive": "vaincre",
+      "englishMeaning": "to defeat",
+      "present": {"je":"vaincs","tu":"vaincs","il/elle/on":"vainc","nous":"vainquons","vous":"vainquez","ils/elles":"vainquent"},
+      "past": {"je":"ai vaincu","tu":"as vaincu","il/elle/on":"a vaincu","nous":"avons vaincu","vous":"avez vaincu","ils/elles":"ont vaincu"},
+      "future": {"je":"vaincrai","tu":"vaincras","il/elle/on":"vaincra","nous":"vaincrons","vous":"vaincrez","ils/elles":"vaincront"}
+    },
+    {
+      "infinitive": "convaincre",
+      "englishMeaning": "to convince",
+      "present": {"je":"convaincs","tu":"convaincs","il/elle/on":"convainc","nous":"convainquons","vous":"convainquez","ils/elles":"convainquent"},
+      "past": {"je":"ai convaincu","tu":"as convaincu","il/elle/on":"a convaincu","nous":"avons convaincu","vous":"avez convaincu","ils/elles":"ont convaincu"},
+      "future": {"je":"convaincrai","tu":"convaincras","il/elle/on":"convaincra","nous":"convaincrons","vous":"convaincrez","ils/elles":"convaincront"}
+    },
+    {
+      "infinitive": "atteindre",
+      "englishMeaning": "to reach",
+      "present": {"je":"atteins","tu":"atteins","il/elle/on":"atteint","nous":"atteignons","vous":"atteignez","ils/elles":"atteignent"},
+      "past": {"je":"ai atteint","tu":"as atteint","il/elle/on":"a atteint","nous":"avons atteint","vous":"avez atteint","ils/elles":"ont atteint"},
+      "future": {"je":"atteindrai","tu":"atteindras","il/elle/on":"atteindra","nous":"atteindrons","vous":"atteindrez","ils/elles":"atteindront"}
+    },
+    {
+      "infinitive": "éteindre",
+      "englishMeaning": "to turn off",
+      "present": {"je":"éteins","tu":"éteins","il/elle/on":"éteint","nous":"éteignons","vous":"éteignez","ils/elles":"éteignent"},
+      "past": {"je":"ai éteint","tu":"as éteint","il/elle/on":"a éteint","nous":"avons éteint","vous":"avez éteint","ils/elles":"ont éteint"},
+      "future": {"je":"éteindrai","tu":"éteindras","il/elle/on":"éteindra","nous":"éteindrons","vous":"éteindrez","ils/elles":"éteindront"}
+    },
+    {
+      "infinitive": "plaindre",
+      "englishMeaning": "to pity",
+      "present": {"je":"plains","tu":"plains","il/elle/on":"plaint","nous":"plaignons","vous":"plaignez","ils/elles":"plaignent"},
+      "past": {"je":"ai plaint","tu":"as plaint","il/elle/on":"a plaint","nous":"avons plaint","vous":"avez plaint","ils/elles":"ont plaint"},
+      "future": {"je":"plaindrai","tu":"plaindras","il/elle/on":"plaindra","nous":"plaindrons","vous":"plaindrez","ils/elles":"plaindront"}
+    }
+  ]
+}
