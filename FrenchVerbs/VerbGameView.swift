@@ -60,15 +60,8 @@ struct VerbGameView: View {
     // MARK: - View Components
     
     private var backgroundGradient: some View {
-        LinearGradient(
-            gradient: Gradient(colors: [
-                Color(red: 0.95, green: 0.92, blue: 0.88),
-                Color(red: 0.98, green: 0.96, blue: 0.93)
-            ]),
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
-        .ignoresSafeArea()
+        Color(.systemGroupedBackground)
+            .ignoresSafeArea()
     }
     
     private var scoreHeader: some View {
@@ -76,7 +69,7 @@ struct VerbGameView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Score")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.secondary)
                 Text("\(viewModel.score)/\(viewModel.totalQuestions)")
                     .font(.title3)
                     .fontWeight(.semibold)
@@ -87,14 +80,14 @@ struct VerbGameView: View {
             VStack(alignment: .trailing, spacing: 4) {
                 Text("Accuracy")
                     .font(.caption)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.secondary)
                 Text("\(viewModel.accuracyPercentage)%")
                     .font(.title3)
                     .fontWeight(.semibold)
             }
         }
         .padding()
-        .background(Color.white)
+        .background(Color(.systemBackground))
         .cornerRadius(12)
     }
     
@@ -109,7 +102,7 @@ struct VerbGameView: View {
                 inputField
             }
             .padding(24)
-            .background(Color.white)
+            .background(Color(.systemBackground))
             .cornerRadius(16)
             .shadow(color: Color.black.opacity(0.05), radius: 8)
         }
@@ -119,13 +112,13 @@ struct VerbGameView: View {
         VStack(spacing: 8) {
             Text("Conjugate (\(viewModel.currentTense.rawValue)):")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
             Text(verb.infinitive)
                 .font(.system(size: 36, weight: .bold))
                 .foregroundColor(.blue)
             Text(verb.englishMeaning)
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
                 .italic()
         }
     }
@@ -134,7 +127,7 @@ struct VerbGameView: View {
         VStack(spacing: 8) {
             Text("For the pronoun:")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
             Text(pronoun.rawValue)
                 .font(.system(size: 28, weight: .semibold))
                 .foregroundColor(.teal)
@@ -145,12 +138,16 @@ struct VerbGameView: View {
         VStack(alignment: .leading, spacing: 8) {
             Text("Enter the conjugation:")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
             TextField("Type here...", text: $viewModel.userInput)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .font(.system(size: 18, weight: .semibold))
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
+                .foregroundColor(.primary)
+                .padding(.vertical, 6)
+                .background(Color(.secondarySystemBackground))
+                .cornerRadius(8)
                 .onSubmit {
                     if !viewModel.userInput.isEmpty {
                         viewModel.checkAnswer()
@@ -168,7 +165,7 @@ struct VerbGameView: View {
                 
                 Text(viewModel.feedback)
                     .font(.body)
-                    .foregroundColor(.black)
+                    .foregroundColor(.primary)
                     .lineLimit(nil)
                     .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity, alignment: .leading)

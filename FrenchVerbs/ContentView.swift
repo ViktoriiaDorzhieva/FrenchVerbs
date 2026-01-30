@@ -14,6 +14,12 @@ struct ContentView: View {
                 .navigationTitle("French Verbs")
                 .navigationBarTitleDisplayMode(.inline)
         }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            #if canImport(UIKit)
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+            #endif
+        }
     }
 }
 
